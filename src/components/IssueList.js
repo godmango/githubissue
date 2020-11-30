@@ -38,7 +38,7 @@ const Item = ({ item }) => {
       }
     };
     fetchCommentsData();
-  }, []);
+  }, [item]);
 
   return (
     <>
