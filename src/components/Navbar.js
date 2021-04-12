@@ -14,7 +14,7 @@ const Navbar = ({ handleSubmit }) => {
       </div>
 
       <form className="navbarSearch" onSubmit={(e) => handleSubmit(e)}>
-        <input className="inputNavbar" type="text" placeholder="search..." />
+        <input className="inputNavbar" type="text" placeholder="owner/repo" />
         <Button type="submit">Search</Button>
       </form>
     </div>
